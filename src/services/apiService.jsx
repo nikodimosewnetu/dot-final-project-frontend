@@ -6,7 +6,7 @@ import axios from 'axios';
 export const fetchMovies = async (query) => {
 
   console.log("Api ",process?.env.REACT_APP_API_URL)
-  const url = `https://www.omdbapi.com/?s=${query}&apikey=${process?.env.REACT_APP_API_URL}`;  // Use HTTPS instead of HTTP
+  const url = `https://www.omdbapi.com/?s=${query}&apikey=11ca9e8c`;  // Use HTTPS instead of HTTP
 
   try {
     const response = await axios.get(url);
